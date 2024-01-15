@@ -17,6 +17,14 @@
   margin: auto 135px;
   /* background-color: firebrick; */
 }
+.paragraph-content {
+  color: rgba(19, 19, 24, 0.7);
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
 /* Header top */
 
 .header-top {
@@ -102,19 +110,17 @@ a {
 }
 
 .form-data {
+  margin-top: 50px;
 
-    margin-top: 50px;
-
-    display: inline-flex;
+  display: inline-flex;
   padding: 16px;
   justify-content: center;
   gap: 24px;
   /* border: 1px solid gold; */
   max-width: 768px;
-  margin-left:125px;
+  margin-left: 125px;
   border-radius: 8px;
-background: rgba(255, 255, 255, 0.30);
-  
+  background: rgba(255, 255, 255, 0.3);
 }
 select:required:invalid {
   color: gray;
@@ -162,4 +168,47 @@ option {
   padding: 16px 35px 16px 16px;
   border-radius: 8px;
   border: 0;
+}
+
+.popular-tour {
+  margin-top: 100px;
+  display: flex;
+  gap: 50px;
+}
+
+.popular-tour-img img {
+  width: 540px;
+  height: 550px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: lightgray 50% / cover no-repeat;
+  /* background-size: 100% 100%; */
+}
+
+.popular-tour-title {
+  padding-bottom: 24px;
+  color: #131318;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.paragraph-content p {
+  padding: 25px 0;
+}
+
+.btn-read-more{
+    border-radius: 8px;
+background: #FF5400;
+color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+border: 0;
+padding: 16px 36px;
 }
