@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900;1000&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+}
+
+.text-color {
+  color: #ff5400;
+}
+
+/* Shared css */
+.container {
+  max-width: 1440px;
+  margin: auto 135px;
+  /* background-color: firebrick; */
+}
+/* Header top */
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+.header-top-left {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #131318;
+  font-family: Mulish;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.header-top-right > ul,
+a {
+  text-decoration: none;
+  list-style: none;
+}
+
+.header-top-right ul {
+  display: flex;
+  gap: 45px;
+}
+
+.header-top-right ul li > a {
+  color: var(--Dark-02, #424247);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#home {
+  color: #ff5400;
+}
+
+/* Banner section */
+
+.banner {
+  background-image: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+  height: 500px;
+  background-size: 100% 100%;
+  border-radius: 16px;
+  margin-top: 50px;
+
+  /* object-fit: cover; */
+}
+
+.banner-title {
+  padding-top: 105px;
+  text-align: center;
+  color: #fff;
+  font-family: Mulish;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.banner-praragraph {
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+
+.form-data {
+
+    margin-top: 50px;
+
+    display: inline-flex;
+  padding: 16px;
+  justify-content: center;
+  gap: 24px;
+  /* border: 1px solid gold; */
+  max-width: 768px;
+  margin-left:125px;
+  border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+  
+}
+select:required:invalid {
+  color: gray;
+}
+option[value=""][disabled] {
+  display: none;
+}
+option {
+  color: black;
+}
+
+#btn-1 {
+  border-radius: 8px;
+  background: #ff5400;
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: 0;
+  padding: 15px 35px;
+}
+
+.form-data {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.form-data input {
+  color: rgba(19, 19, 24, 0.5);
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 8px;
+  border: 0;
+  padding: 16px;
+}
+
+.form-data select {
+  padding: 16px 35px 16px 16px;
+  border-radius: 8px;
+  border: 0;
+}
