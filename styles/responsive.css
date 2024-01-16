@@ -102,13 +102,38 @@
     width: auto;
     padding: 10px;
   }
-  .simple-place{
+  .simple-place {
     flex-direction: column;
-   justify-content: center;
+    justify-content: center;
   }
-  .vid{
+  .vid {
     width: 90%;
+  }
+
+  .newsletter {
+    flex-direction: column;
 
   }
-}
+  .nw-img{
+    
+    width: 90%;
+    margin: 0 25px;
+  }
+    .upto-save {
+        position: absolute;
+        top: 55%;
+        left: 40%;
+        width: 285px;
+    height: 90px;
+
+    }
+    .newsletter-left {
+        margin: auto 25px;
+        padding: 30px 35px;
+        
+    }
+    .form-sub{
+        padding: 15px;
+    }
+  }
 
