@@ -91,6 +91,7 @@
     top: 130px;
     height: auto;
     width: auto;
+    padding: 10px;
   }
 
   .deal-top-2 {
@@ -99,5 +100,15 @@
     top: 130px;
     height: auto;
     width: auto;
+    padding: 10px;
+  }
+  .simple-place{
+    flex-direction: column;
+   justify-content: center;
+  }
+  .vid{
+    width: 90%;
+
   }
 }
+

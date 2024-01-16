@@ -359,7 +359,7 @@ option {
 /* Discount */
 
 .Discount {
-    padding-top: 50px;
+  padding-top: 50px;
   text-align: center;
   max-width: 640px;
   margin: 0 auto;
@@ -388,11 +388,13 @@ option {
   background-repeat: no-repeat;
 }
 
-.deal-display-flex .deal-top ul, .deal-display-flex-2 .deal-top-2 ul {
+.deal-display-flex .deal-top ul,
+.deal-display-flex-2 .deal-top-2 ul {
   display: flex;
   gap: 15px;
 }
-.deal-top li, .deal-top-2 li {
+.deal-top li,
+.deal-top-2 li {
   list-style: none;
 }
 
@@ -459,32 +461,112 @@ option {
   font-style: normal;
   font-weight: 800;
   line-height: normal;
-  margin-top:20px;
+  margin-top: 20px;
   padding: 13px 24px;
 }
 
 /* Deal-top-2 */
 
 .deal-display-flex-2 {
-    position: relative;
-  }
-
-.deal-top-2{
-    
-    border-radius: 16px;
-    border: 2px solid #fff;
-  
-    background: rgba(255, 255, 255, 0.8);
-    backdrop-filter: blur(2.5px);
-    width: 579px;
-    height: 389px;
-    flex-shrink: 0;
-    padding: 35px;
-    
+  position: relative;
 }
 
-.deal-top-2{
-    position: absolute;
-    left: 7.5%;
-    top: 55px;
+.deal-top-2 {
+  border-radius: 16px;
+  border: 2px solid #fff;
+
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2.5px);
+  width: 579px;
+  height: 389px;
+  flex-shrink: 0;
+  padding: 35px;
 }
+
+.deal-top-2 {
+  position: absolute;
+  left: 7.5%;
+  top: 55px;
+}
+
+.btn-pack {
+  display: flex;
+  align-items: center;
+}
+.btn-package {
+  border-radius: 8px;
+  background: #ff5400;
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin: 60px auto;
+  width: 210px;
+  height: 52px;
+  flex-shrink: 0;
+  /* border: 0; */
+  border: 1px solid gold;
+}
+
+#pkg-1 {
+  text-align: left;
+}
+
+.lost-place {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; /* 162.5% */
+  padding-top: 12px;
+}
+
+.lost-pc {
+  padding-top: 10px;
+}
+
+.vid {
+
+
+  /* width: 100%;
+  height: 100%; */
+
+  width: 610px;
+  height: 424px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0) 10%);
+  display: block;
+  margin: 0 auto;
+  object-fit: cover;
+
+}
+
+.simple-place {
+    /* height: 450px; */
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.place-right {
+  position: relative;
+}
+
+.watch {
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 150% */
+}
+
+
+
