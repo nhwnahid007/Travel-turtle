@@ -578,6 +578,7 @@ option {
 .newsletter-left{
     border-radius: 16px;
 border: 1px solid #FF5400;
+padding: 20px;
 }
 
 .nw-left{
@@ -669,4 +670,51 @@ line-height: normal;
 .nw-img{
     object-fit: cover;
    
+}
+
+/* Footer section */
+
+footer{
+    margin-top: 100px;
+    background: rgba(19, 19, 24, 0.05);
+    height: 500px;
+}
+
+.footer-top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.footer-paragraph{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.social{
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    color: #131318;
+    font-size: 40px;
+}
+
+.hr{
+    width: 872px;
+height: 1px;
+margin: 0 auto;
+}
+
+#footer-copy{
+    padding-top: 30px;
+    color: #131318;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
 }
