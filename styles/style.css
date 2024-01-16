@@ -12,8 +12,8 @@
 }
 
 .destination-area {
-    position: relative;
-    text-align: center;
+  position: relative;
+  text-align: center;
   color: #fff;
   /* text-align: center; */
   font-family: Mulish;
@@ -21,10 +21,9 @@
   font-style: normal;
   font-weight: 800;
   line-height: normal;
-
 }
- 
-  .centered {
+
+.centered {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -103,8 +102,9 @@ a {
   /* background-size: 100% 100%; */
   border-radius: 16px;
   margin-top: 50px;
-
+  padding-bottom: 50px;
   /* object-fit: cover; */
+  background-size: 100% 100%;
 }
 
 .banner-title {
@@ -131,6 +131,7 @@ a {
 
 .form-data {
   margin-top: 50px;
+  padding-bottom: 50px;
   display: flex;
   padding: 16px;
   justify-content: center;
@@ -245,43 +246,43 @@ option {
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(3, 1fr);
   gap: 20px;
-  
+
   /* align-items: center;
   justify-content: center; */
 }
 .grid-item-1 {
-    position: relative;
+  position: relative;
   grid-column: 1 / span 6;
 }
 .grid-item-2 {
-    position: relative;
-    
+  position: relative;
+
   grid-column: 7 / span 6;
 }
 .grid-item-3 {
-    position: relative;
-    
+  position: relative;
+
   grid-column: 1 / span 4;
 }
 .grid-item-4 {
-    position: relative;
-    
+  position: relative;
+
   grid-column: 5 / span 5;
 }
 .grid-item-5 {
-    position: relative;
-    
+  position: relative;
+
   grid-column: 10 / span 3;
 }
 
 .grid-item-6 {
-    position: relative;
-    
+  position: relative;
+
   grid-column: 1 / span 5;
 }
 .grid-item-7 {
-    position: relative;
-    
+  position: relative;
+
   grid-column: 6 / span 7;
 }
 .img-container img {
@@ -289,9 +290,55 @@ option {
   height: 100%;
 }
 
+/* Why choose us */
 
-/* .test{
-    position: relative;
+.who-chose {
   text-align: center;
-} */
+  max-width: 640px;
+  margin: 0 auto;
+}
 
+.services {
+  margin-top: 50px;
+  display: flex;
+  gap: 25px;
+}
+
+.handpick {
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+  padding: 30px;
+}
+
+.world-class {
+  padding: 30px;
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+}
+
+/* Services shared */
+
+#logo-1 {
+  padding: 10px;
+}
+
+#p-1 {
+  padding: 10px;
+}
+
+.service-title {
+  padding: 10px;
+}
+
+/* Service 3 */
+
+.services-3 {
+    padding: 30px;
+  margin: 25px auto;
+  width: 573px;
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
+}
