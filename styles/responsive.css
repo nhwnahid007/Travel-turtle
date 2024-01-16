@@ -135,5 +135,26 @@
     .form-sub{
         padding: 15px;
     }
+
+    .hr{
+        width: 335px;
+height: 1px;
+    margin: 0 auto;
+    }
+
+    .fp-m{
+        margin-top: 200px;
+    }
+    .fav-container {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #tf1{
+        padding-top: 100px;
+    }
+
+
   }
 
