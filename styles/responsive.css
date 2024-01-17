@@ -2,13 +2,36 @@
   .container {
     margin: 0 20px;
   }
-  .header-top {
-    flex-direction: column;
+  .header{
+    font-size: 2.4em;
+    margin: 0 100px;
   }
-  .header-top-right ul {
-    margin-top: 50px;
-    justify-content: center;
-    flex-direction: column;
+  .fa-bars{
+    display: block;
+  }
+
+  .navbars ul{
+    display: block;
+    text-align: center;
+  }
+  .navbars{
+    position: absolute;
+    top:240px;
+    left: 255px;
+    display: none;
+  }
+  .navbars ul li a{
+    display: block;
+    margin-bottom: 20px;
+  }
+  .active{
+    display: block;
+  }
+
+  .headertop{
+    gap: 40px;
+    margin-left: -30px;
+    margin-bottom: 364px;
   }
 
   .banner {
